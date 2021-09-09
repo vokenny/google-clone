@@ -23,7 +23,7 @@ body {
   text-decoration: none;
 }
 
-.nav-link:first-of-type {
+#navbar > .nav-link:first-of-type {
   margin-left: 15px;
 }
 
@@ -52,4 +52,39 @@ body {
 #google-account-icon {
   width: 32px;
   height: auto;
+}
+
+footer {
+  background-color: #f2f2f2;
+}
+
+footer .nav-link {
+  color: rgba(0, 0, 0, 0.54);
+  padding: 15px;
+  margin: 0px;
+}
+
+#carbon-neutral-icon {
+  height: 14px;
+  margin-right: 6px;
+}
+
+#region {
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  color: rgba(0, 0, 0, 0.54);
+}
+
+#region > p {
+  margin: 0px;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+}
+
+#footer-links > div {
+  display: flex;
 }
