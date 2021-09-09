@@ -22,21 +22,66 @@
             <img
               id="google-suite-menu"
               src="https://img.icons8.com/material-sharp/24/000000/circled-menu.png"
-              aria-label="Google Suite Menu icon"
+              alt="Google Suite Menu icon"
             />
           </a>
           <a href="#" aria-label="Google Account" class="nav-link">
             <img
               id="google-account-icon"
               src="https://img.icons8.com/wired/64/000000/filled-circle.png"
-              aria-label="Google Account Profile icon"
+              alt="Google Account Profile icon"
             />
           </a>
         </div>
       </div>
     </nav>
 
-    <main></main>
+    <main>
+      <div id="logo-container">
+        <img
+          id="logo"
+          src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+          alt="Google"
+        />
+      </div>
+
+      <div id="search">
+        <form action="/search" method="GET" role="search">
+          <div id="search-container">
+            <div id="search-box">
+              <img
+                class="search-box-icons"
+                src="https://img.icons8.com/material-sharp/24/000000/search.png"
+                alt="Magnifying glass icon"
+              />
+              <input
+                id="search-query"
+                type="text"
+                inputmode="search"
+                maxlength="2048"
+                autocapitalize="off"
+                autocomplete="off"
+                autofocus
+                spellcheck="false"
+                aria-label="Search"
+              />
+              <img
+                class="search-box-icons"
+                src="https://img.icons8.com/fluency-systems-regular/48/000000/microphone--v1.png"
+                alt="Microphone icon"
+              />
+            </div>
+
+            <div id="submit-container">
+              <center>
+                <input type="submit" value="Google Search" />
+                <input type="submit" value="I'm Feeling Lucky" />
+              </center>
+            </div>
+          </div>
+        </form>
+      </div>
+    </main>
 
     <footer>
       <div id="region">
@@ -44,23 +89,24 @@
       </div>
 
       <div id="footer-links">
-        <div>
+        <div id="footer-links-left">
           <a href="#" class="nav-link">Advertising</a>
           <a href="#" class="nav-link">Business</a>
           <a href="#" class="nav-link">How Search Works</a>
         </div>
 
-        <div>
+        <div id="footer-links-center">
           <a href="#" class="nav-link">
             <img
               id="carbon-neutral-icon"
               src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAYCAMAAAAiV0Z6AAAAPFBMVEVLoEN0wU6CzFKCzFKCzFKCzFKCzFJSo0MSczNDmkCCzFJPoUMTczNdr0gmgziCzFITczMTczMTczMTczPh00jOAAAAFHRSTlPF/+bIsms8Ad///hX+//5/tXw7aMEAx10AAACaSURBVHgBbc4HDoRQCATQ33tbvf9dF9QxaCT9UQaltLHOh/golXKhMs5Xqa0xU1lyoa2fXFyQOsDG38qsLy4TaV+sFislovyhPzLJJrBu6eQOtpW0LjbJkzTuTDLRVNKa3uxJI+VdiRqXSeu6GW+Qxi29eLIi8H7EsYrT42BD+mQtNO5JMjRuC4lSY8V4hsLX0egGijvUSEP9AbylEsOkeCgWAAAAAElFTkSuQmCC"
+              alt="Carbon nuutral icon"
             />
-            Carbon neutral since 2007
+            <span>Carbon neutral since 2007</span>
           </a>
         </div>
 
-        <div>
+        <div id="footer-links-right">
           <a href="#" class="nav-link">Privacy</a>
           <a href="#" class="nav-link">Terms</a>
           <a href="#" class="nav-link">Settings</a>
